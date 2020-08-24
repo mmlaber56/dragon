@@ -1,3 +1,6 @@
+@extends ('layout')
+
+@section('content')
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,3 +12,4 @@
 	<p>{{ $post->body }}</p>
 </body>
 </html>
+@endsection('content')
