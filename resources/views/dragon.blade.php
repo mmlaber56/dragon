@@ -12,4 +12,4 @@
 	<p>{{ $post->body }}</p>
 </body>
 </html>
-@endsection('content')
+@endsection
